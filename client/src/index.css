@@ -33,3 +33,33 @@ font-size: 24px;
     font-size: 24px;
     font-weight: lighter;
     }
+    .file_upload{
+        border: dashed black 1px ;
+        border-radius:6px;       
+    }
+    input[type="file"]::file-selector-button{
+        background-color: #1DAD96;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        margin: 20px;
+        @apply  shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]
+    }
+    input[type="file"]::file-selector-button:hover {
+        cursor:pointer;
+    }
+    .preview{
+        border-radius: 6px;
+        border: none;
+        object-fit: cover;
+        border: white 1px solid;
+    }
+    img{
+    color: white;
+     text-align: center;
+    }
+    .banner1{
+        background-image: url('./assets/signup.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
